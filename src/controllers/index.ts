@@ -1,9 +1,3 @@
-import TotalSupplyController from "./totalSupply";
-import LockedTokensController from "./lockedTokens";
-import CirculatingSupplyController from "./circulatingSupply";
+import OpenSeaController from "./openSea";
 
-export const controllers = [
-  TotalSupplyController,
-  LockedTokensController,
-  CirculatingSupplyController,
-];
+export const controllers = [OpenSeaController];
